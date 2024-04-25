@@ -1,0 +1,104 @@
+* {
+  font-family: 'Noto Sans','Sans-serif';
+}
+body {
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+.App {
+  padding: 50px 0;
+}
+.App h1, .App em {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+
+}
+.App em {
+  font-size: 90px;
+  text-shadow: -2px -2px 0 #8e9aaf, 2px -2px 0 #8e9aaf, -2px 2px 0 #8e9aaf, 2px 2px 0 #8e9aaf;
+  font-weight: 800;
+  letter-spacing: .2rem;
+}
+.App h1 {
+  color: #1c2541;
+  font-size: 60px;
+  font-weight: 900;
+  text-shadow: -1px -1px 0 #1c2541, 1px -1px 0 #1c2541, -1px 1px 0 #1c2541, 1px 1px 0 #1c2541;
+}
+.questionbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto 40px;
+  background: #8e9aaf;
+  padding: 100px 0;
+  border-radius: 30px;
+  box-shadow: 0px 10px 6px -6px #666;
+}
+.questionwrap {
+  display: flex;
+  align-items: baseline;
+}
+.questionwrap span, .questionwrap p {
+  color: #feeafa;
+  font-weight: 600;
+}
+.btnbox {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  border: 3px solid #8e9aaf;
+  margin: auto;
+  padding: 20px 0;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+.btnbox button {
+  font-size: 100px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: -1px -1px 0 #8e9aaf, 1px -1px 0 #8e9aaf, -1px 1px 0 #8e9aaf, 1px 1px 0 #8e9aaf;
+}
+.btnbox button:hover {
+  color: #feeafa;
+}
+.btnbox button:first-child {
+  margin-right: 80px;
+}
+.btnbox button:first-child::after {
+  content: '';
+  display: inline-block;
+  width: 2px;
+  height: 60px;
+  background: #ccc;
+  position: relative;
+  top: 0;
+  right: -40px;
+}
+.result {
+  width: 400px;
+  margin: auto;
+  padding: 60px 0;
+  text-align: center;
+  background: #8e9aaf;
+  border-radius: 30px;
+  box-shadow: 0px 8px 6px -6px #666;
+}
+.result p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #dee2ff;
+  margin-bottom: 20px;
+}
+.result button {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 30px;
+  background: #feeafa;
+  font-size: 13px;
+  margin-top: 5px;
+}
